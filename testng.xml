@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Custom suite" verbose="5" thread-count="1" parallel="none" configfailurepolicy="continue">
+
+    <listeners>
+        <listener class-name="com.cbre.www.grid.common.TestNGExecutionListener"> </listener>
+    </listeners>
+
+    <test name=" Grid Regression Test" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="com.cbre.www.grid.runnerClasses.CucumberRunnerClass"/>
+
+        </classes>
+    </test>
+
+</suite>

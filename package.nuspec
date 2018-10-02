@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GRID.Automation</id>
+    <version>1.0.0</version>
+    <authors>satyend.sharma</authors>
+    <owners>satyend.sharma</owners>
+    <licenseUrl>http://cbre.com</licenseUrl>
+    <projectUrl>http://cbre.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GRID.Automation Package</description>
+    <releaseNotes>Initial Integration</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+  </metadata>
+</package>
